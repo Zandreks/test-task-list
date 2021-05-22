@@ -1,0 +1,37 @@
+{
+  "name": "task_list",
+  "version": "0.0.0",
+  "private": true,
+  "author": {
+    "name": "Maxim Sevryanov",
+    "Email": "zandreks@gmail.com",
+    "url": "https://zandreks.github.io/"
+  },
+  "scripts": {
+    "start": "nodemon App.js"
+  },
+  "dependencies": {
+    "bcrypt": "^5.0.0",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "cookie-parser": "~1.4.4",
+    "cors": "^2.8.5",
+    "custom-env": "^1.0.2",
+    "express": "^4.16.4",
+    "express-session": "^1.17.0",
+    "jsonwebtoken": "^8.5.1",
+    "moment": "^2.29.1",
+    "morgan": "~1.9.1",
+    "multer": "^1.4.2",
+    "nodemon": "^2.0.4",
+    "pg": "^8.5.1",
+    "pg-hstore": "^2.3.3",
+    "qrcode": "^1.4.4",
+    "request-promise": "^4.2.5",
+    "sequelize": "^6.3.5"
+  },
+  "devDependencies": {
+    "eslint": "^6.6.0",
+    "nodemailer": "^6.4.14"
+  }
+}
